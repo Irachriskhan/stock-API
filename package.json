@@ -1,0 +1,33 @@
+{
+  "name": "stock-api",
+  "version": "1.1.0",
+  "description": "Connect Express with API",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Irachriskhan/stock-API.git"
+  },
+  "keywords": [
+    "stock",
+    "API",
+    "API",
+    "manager"
+  ],
+  "author": "Christophe Irakoze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irachriskhan/stock-API/issues"
+  },
+  "homepage": "https://github.com/Irachriskhan/stock-API#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
